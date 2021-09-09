@@ -1,0 +1,77 @@
+body {
+	padding: 25px;
+	background-color: white;
+	color: rgb(37, 36, 36);
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 1.52;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+body {
+	font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+  
+.dark-mode {
+	background-color: black;
+	color: white;
+}
+.back-to-top {
+    position: fixed;
+    z-index: 99999; /* 最高層*/
+    display: none;
+    right: 15px;
+    bottom: 15px;
+}
+
+.back-to-top img {
+    display: flex;
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.4s;
+}
+.logo{
+	width: 60%;
+}
+.top{
+	/* float: right; */
+	font-size: 50pt;
+}
+
+
+.info-parent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-card {
+	flex: 1 1 500px;
+	flex: 0 1 500px;
+	margin: 5px;
+	font-size: 14pt;
+}
+
+.chap-list {
+	text-align: center;
+	font-size: 18pt;
+}
+.email{
+	line-height: 1.5rem;
+	margin-bottom: 10px;
+}
+.message{
+	width: 50%;
+}
+
+footer{
+	margin-top: 15px;
+    text-align: center;
+}
